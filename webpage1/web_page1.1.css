@@ -1,0 +1,119 @@
+main {
+    width: 100vw;
+    background: var(--bgcolor);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+:root{
+    --bgcolor:rgb(16, 16, 16);
+    --awcolor:darkorange;
+    --font_color:white;
+    --bgcolor2:black;
+    --font_color2:rgb(169, 169, 169);
+    --font1:"Heebo", sans-serif;
+    --font2:"Bebas Neue", sans-serif;
+    --font3:"Noto Sans", sans-serif;
+    --aawcolor:orangered;
+ }
+ main h1 {
+    /* width: 500px; */
+    margin:80px 0px 70px;
+    font-size: 47px;
+    word-spacing: 30px;
+    letter-spacing: 10px;
+    text-shadow: 4px 4px 16px black;
+    color: var(--aawcolor);
+}
+
+div.car_option {
+    width: 1em;
+    display: flex;
+    width: fit-content;
+    justify-content: space-evenly;
+    width: 100vw;
+    margin: 20px 0px 30px;
+    flex-wrap: wrap;
+}
+div.car_option h2 {
+    font-family: var(--font3);
+    width: 200px;
+    border-radius: 50px;
+    border: 2px solid var(--awcolor);
+    padding: 10px;
+    box-shadow: 0px 1px 19px 0px black;
+    margin: 18px;
+    background: var(--bgcolor2);
+}
+div.about {
+    margin: 20px 80px;
+    word-spacing: 7px;
+    letter-spacing: 3px;
+    line-height: 25px;
+} 
+div.about p{
+    color: var(--font_color2);
+    font-size: 20px;
+}
+div.car_cards{
+    width: 100vw;
+    background: linear-gradient(180deg, var(--bgcolor), var(--bgcolor2));
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+div.car_cards div.card {
+    text-align: left;
+    background: var(--bgcolor2);
+    width: 260px;
+    height: 400px;
+    /* margin: 20px; */
+    border: 2px solid var(--awcolor);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 250px 0px 50px 0px;
+    box-shadow: 3px 5px 20px 10px black;
+}
+img.car_card_img {
+    /* margin-bottom: 50px; */
+    margin: -150px 0px 20px -40px;
+}
+#buggati_card_info {
+    margin: 0px 0px -30px 0px;
+}
+div.card div.car_info h2, p {
+    margin: 0 20px;
+    /* line-height: 14px; */
+    /* word-spacing: 4px; */
+    letter-spacing: 1px;
+}
+div.card div.car_info h2 {
+    margin: 0px 0px 20px 20px;
+    letter-spacing: 5px;
+    color: var(--awcolor);
+    font-size: 27px;
+}
+div.card div.car_info p{
+    color: var(--font_color2);
+}
+button.card {
+    text-decoration: none;
+    background: rgb(15 15 15);
+    border-radius: 42px;
+    width: 180px;
+    height: 60px;
+    border: 3px solid var(--awcolor);
+    font-weight: 600;
+    font-size: larger;
+    font-family: var(--font2);
+    margin: 20px auto;
+    letter-spacing: 2px;
+}
+#buggati_book_now {
+    margin: 60px auto 0;
+}
